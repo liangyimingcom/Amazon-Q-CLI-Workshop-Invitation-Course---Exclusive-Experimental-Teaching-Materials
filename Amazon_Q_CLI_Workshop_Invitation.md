@@ -1,6 +1,6 @@
 # Amazon Q CLI Workshop 邀请函
 
-![image-20250616212920549](/Users/liangym/WorkDoc_Offline/2025_12_31 Amazon-Q-CLI[allinone]/2025_06_16 [WS-QD-Pre]Amazon Q CLI 研讨会-CLINE-会议说明/CLINE_README/assets/image-20250616212920549.png)
+![image-20250616212920549](./assets/image-20250616212920549.png)
 
 ## 活动概述
 
