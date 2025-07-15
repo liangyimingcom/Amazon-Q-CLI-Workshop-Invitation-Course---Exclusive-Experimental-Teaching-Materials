@@ -1,4 +1,4 @@
-# Amazon Q CLI Workshop 邀请课程 - 专属实验教材  
+# Amazon Q CLI Workshop 邀请课程 - 专属实验教材1
 
 
 
@@ -23,11 +23,11 @@
 
 1. 在工作坊网站的事件输出部分查看 VSCode Server 访问链接。
 
-   <img src="https://static.us-east-1.prod.workshops.aws/e9c4f308-c96f-491f-86c0-ba0d2f7471d8/static/images/vscode-server-link.png?Key-Pair-Id=K36Q2WVO3JP7QD&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdGF0aWMudXMtZWFzdC0xLnByb2Qud29ya3Nob3BzLmF3cy9lOWM0ZjMwOC1jOTZmLTQ5MWYtODZjMC1iYTBkMmY3NDcxZDgvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTI2MzgwNX19fV19&Signature=kzfs3Dhw8Zsk6chEFBWYbV5RubiPfTXY9r-F3vVAbjl-lRQ%7EAwsVKmwEs3Hb5so2R9sX96hQ11TXj-w4oCtfC58ARn3U1ERONrKm0mU3BgnzRI2EYOZH9mwuz5jS5qEV4A2rsX7kRh97cZFkatZejXzTXXXXNAMur2eTzgiLNRZBkvYsa4CUl5bIXvSrS5X6Te3SsnAaedRW5E-zGqPfYNV8Qdndpfg%7Eik0SVQUnrmUmVBVXnvbQl%7EWEHN2BK%7EFJb-oI54umMbSQRcxLJSMD0avP0uGzMHnZMi158wjOCPBAs%7EvgtOn56AwfHPgNmvi9dcD3lSe5Vx5WdJHomUWXUQ__" alt="VSCode Server 访问链接" style="zoom: 33%;" />
+   ![image-20250715135705743](./assets/image-20250715135705743.png)
 
 当 VSCode Server 登录页面打开时，输入事件输出中提供的密码进行登录。
 
-<img src="https://static.us-east-1.prod.workshops.aws/e9c4f308-c96f-491f-86c0-ba0d2f7471d8/static/images/vscode-server-login.png?Key-Pair-Id=K36Q2WVO3JP7QD&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdGF0aWMudXMtZWFzdC0xLnByb2Qud29ya3Nob3BzLmF3cy9lOWM0ZjMwOC1jOTZmLTQ5MWYtODZjMC1iYTBkMmY3NDcxZDgvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTI2MzgwNX19fV19&Signature=kzfs3Dhw8Zsk6chEFBWYbV5RubiPfTXY9r-F3vVAbjl-lRQ%7EAwsVKmwEs3Hb5so2R9sX96hQ11TXj-w4oCtfC58ARn3U1ERONrKm0mU3BgnzRI2EYOZH9mwuz5jS5qEV4A2rsX7kRh97cZFkatZejXzTXXXXNAMur2eTzgiLNRZBkvYsa4CUl5bIXvSrS5X6Te3SsnAaedRW5E-zGqPfYNV8Qdndpfg%7Eik0SVQUnrmUmVBVXnvbQl%7EWEHN2BK%7EFJb-oI54umMbSQRcxLJSMD0avP0uGzMHnZMi158wjOCPBAs%7EvgtOn56AwfHPgNmvi9dcD3lSe5Vx5WdJHomUWXUQ__" alt="VSCode Server 登录界面" style="zoom: 33%;" />
+![image-20250715135734591](./assets/image-20250715135734591.png)
 
 #### 连接 Amazon Q Developer 扩展
 
@@ -35,29 +35,25 @@
 
 1. 点击 VSCode 左侧边栏中的 Amazon Q Developer 图标。
 
-   <img src="https://static.us-east-1.prod.workshops.aws/e9c4f308-c96f-491f-86c0-ba0d2f7471d8/static/images/q-dev-for-ide.png?Key-Pair-Id=K36Q2WVO3JP7QD&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdGF0aWMudXMtZWFzdC0xLnByb2Qud29ya3Nob3BzLmF3cy9lOWM0ZjMwOC1jOTZmLTQ5MWYtODZjMC1iYTBkMmY3NDcxZDgvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTI2MzgwNX19fV19&Signature=kzfs3Dhw8Zsk6chEFBWYbV5RubiPfTXY9r-F3vVAbjl-lRQ%7EAwsVKmwEs3Hb5so2R9sX96hQ11TXj-w4oCtfC58ARn3U1ERONrKm0mU3BgnzRI2EYOZH9mwuz5jS5qEV4A2rsX7kRh97cZFkatZejXzTXXXXNAMur2eTzgiLNRZBkvYsa4CUl5bIXvSrS5X6Te3SsnAaedRW5E-zGqPfYNV8Qdndpfg%7Eik0SVQUnrmUmVBVXnvbQl%7EWEHN2BK%7EFJb-oI54umMbSQRcxLJSMD0avP0uGzMHnZMi158wjOCPBAs%7EvgtOn56AwfHPgNmvi9dcD3lSe5Vx5WdJHomUWXUQ__" alt="Amazon Q Developer 扩展" style="zoom:50%;" />
+   ![image-20250715135743062](./assets/image-20250715135743062.png)
 
 点击登录按钮，将显示一个认证码，同时在您的网络浏览器中打开 AWS Builder ID 认证页面。
 
-<img src="https://static.us-east-1.prod.workshops.aws/e9c4f308-c96f-491f-86c0-ba0d2f7471d8/static/images/confirm-code-for-aws-builder-id.png?Key-Pair-Id=K36Q2WVO3JP7QD&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdGF0aWMudXMtZWFzdC0xLnByb2Qud29ya3Nob3BzLmF3cy9lOWM0ZjMwOC1jOTZmLTQ5MWYtODZjMC1iYTBkMmY3NDcxZDgvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTI2MzgwNX19fV19&Signature=kzfs3Dhw8Zsk6chEFBWYbV5RubiPfTXY9r-F3vVAbjl-lRQ%7EAwsVKmwEs3Hb5so2R9sX96hQ11TXj-w4oCtfC58ARn3U1ERONrKm0mU3BgnzRI2EYOZH9mwuz5jS5qEV4A2rsX7kRh97cZFkatZejXzTXXXXNAMur2eTzgiLNRZBkvYsa4CUl5bIXvSrS5X6Te3SsnAaedRW5E-zGqPfYNV8Qdndpfg%7Eik0SVQUnrmUmVBVXnvbQl%7EWEHN2BK%7EFJb-oI54umMbSQRcxLJSMD0avP0uGzMHnZMi158wjOCPBAs%7EvgtOn56AwfHPgNmvi9dcD3lSe5Vx5WdJHomUWXUQ__" alt="AWS Builder ID 认证码" style="zoom: 33%;" />
-
-<img src="https://static.us-east-1.prod.workshops.aws/e9c4f308-c96f-491f-86c0-ba0d2f7471d8/static/images/open-builder-id-external-website.png?Key-Pair-Id=K36Q2WVO3JP7QD&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdGF0aWMudXMtZWFzdC0xLnByb2Qud29ya3Nob3BzLmF3cy9lOWM0ZjMwOC1jOTZmLTQ5MWYtODZjMC1iYTBkMmY3NDcxZDgvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTI2MzgwNX19fV19&Signature=kzfs3Dhw8Zsk6chEFBWYbV5RubiPfTXY9r-F3vVAbjl-lRQ%7EAwsVKmwEs3Hb5so2R9sX96hQ11TXj-w4oCtfC58ARn3U1ERONrKm0mU3BgnzRI2EYOZH9mwuz5jS5qEV4A2rsX7kRh97cZFkatZejXzTXXXXNAMur2eTzgiLNRZBkvYsa4CUl5bIXvSrS5X6Te3SsnAaedRW5E-zGqPfYNV8Qdndpfg%7Eik0SVQUnrmUmVBVXnvbQl%7EWEHN2BK%7EFJb-oI54umMbSQRcxLJSMD0avP0uGzMHnZMi158wjOCPBAs%7EvgtOn56AwfHPgNmvi9dcD3lSe5Vx5WdJHomUWXUQ__" alt="打开 AWS Builder ID 网站" style="zoom: 33%;" />
+![image-20250715135752047](./assets/image-20250715135752047.png)
 
 继续进行 AWS Builder ID 认证过程：
 
 - **如果您没有 AWS Builder ID**：点击"创建 AWS Builder ID"按钮创建一个新账户。
 
-  <img src="https://static.us-east-1.prod.workshops.aws/e9c4f308-c96f-491f-86c0-ba0d2f7471d8/static/images/aws-builder-id-create.png?Key-Pair-Id=K36Q2WVO3JP7QD&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdGF0aWMudXMtZWFzdC0xLnByb2Qud29ya3Nob3BzLmF3cy9lOWM0ZjMwOC1jOTZmLTQ5MWYtODZjMC1iYTBkMmY3NDcxZDgvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTI2MzgwNX19fV19&Signature=kzfs3Dhw8Zsk6chEFBWYbV5RubiPfTXY9r-F3vVAbjl-lRQ%7EAwsVKmwEs3Hb5so2R9sX96hQ11TXj-w4oCtfC58ARn3U1ERONrKm0mU3BgnzRI2EYOZH9mwuz5jS5qEV4A2rsX7kRh97cZFkatZejXzTXXXXNAMur2eTzgiLNRZBkvYsa4CUl5bIXvSrS5X6Te3SsnAaedRW5E-zGqPfYNV8Qdndpfg%7Eik0SVQUnrmUmVBVXnvbQl%7EWEHN2BK%7EFJb-oI54umMbSQRcxLJSMD0avP0uGzMHnZMi158wjOCPBAs%7EvgtOn56AwfHPgNmvi9dcD3lSe5Vx5WdJHomUWXUQ__" alt="创建 AWS Builder ID" style="zoom: 33%;" />
+  ![image-20250715135808058](./assets/image-20250715135808058.png)
 
 **如果您已经有 AWS Builder ID**：使用您注册的电子邮件地址登录。
 
-<img src="https://static.us-east-1.prod.workshops.aws/e9c4f308-c96f-491f-86c0-ba0d2f7471d8/static/images/login-to-builder-id.png?Key-Pair-Id=K36Q2WVO3JP7QD&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdGF0aWMudXMtZWFzdC0xLnByb2Qud29ya3Nob3BzLmF3cy9lOWM0ZjMwOC1jOTZmLTQ5MWYtODZjMC1iYTBkMmY3NDcxZDgvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTI2MzgwNX19fV19&Signature=kzfs3Dhw8Zsk6chEFBWYbV5RubiPfTXY9r-F3vVAbjl-lRQ%7EAwsVKmwEs3Hb5so2R9sX96hQ11TXj-w4oCtfC58ARn3U1ERONrKm0mU3BgnzRI2EYOZH9mwuz5jS5qEV4A2rsX7kRh97cZFkatZejXzTXXXXNAMur2eTzgiLNRZBkvYsa4CUl5bIXvSrS5X6Te3SsnAaedRW5E-zGqPfYNV8Qdndpfg%7Eik0SVQUnrmUmVBVXnvbQl%7EWEHN2BK%7EFJb-oI54umMbSQRcxLJSMD0avP0uGzMHnZMi158wjOCPBAs%7EvgtOn56AwfHPgNmvi9dcD3lSe5Vx5WdJHomUWXUQ__" alt="登录 AWS Builder ID" style="zoom: 33%;" />
+![image-20250715135820215](./assets/image-20250715135820215.png)
 
 登录后，验证认证码并点击"确认并继续"按钮，允许访问 Amazon Q Developer。
 
-<img src="https://static.us-east-1.prod.workshops.aws/e9c4f308-c96f-491f-86c0-ba0d2f7471d8/static/images/confirm-and-continue.png?Key-Pair-Id=K36Q2WVO3JP7QD&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdGF0aWMudXMtZWFzdC0xLnByb2Qud29ya3Nob3BzLmF3cy9lOWM0ZjMwOC1jOTZmLTQ5MWYtODZjMC1iYTBkMmY3NDcxZDgvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTI2MzgwNX19fV19&Signature=kzfs3Dhw8Zsk6chEFBWYbV5RubiPfTXY9r-F3vVAbjl-lRQ%7EAwsVKmwEs3Hb5so2R9sX96hQ11TXj-w4oCtfC58ARn3U1ERONrKm0mU3BgnzRI2EYOZH9mwuz5jS5qEV4A2rsX7kRh97cZFkatZejXzTXXXXNAMur2eTzgiLNRZBkvYsa4CUl5bIXvSrS5X6Te3SsnAaedRW5E-zGqPfYNV8Qdndpfg%7Eik0SVQUnrmUmVBVXnvbQl%7EWEHN2BK%7EFJb-oI54umMbSQRcxLJSMD0avP0uGzMHnZMi158wjOCPBAs%7EvgtOn56AwfHPgNmvi9dcD3lSe5Vx5WdJHomUWXUQ__" alt="确认认证码" style="zoom: 33%;" />
-
-<img src="https://static.us-east-1.prod.workshops.aws/e9c4f308-c96f-491f-86c0-ba0d2f7471d8/static/images/allow-access-to-amazon-q-developer.png?Key-Pair-Id=K36Q2WVO3JP7QD&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdGF0aWMudXMtZWFzdC0xLnByb2Qud29ya3Nob3BzLmF3cy9lOWM0ZjMwOC1jOTZmLTQ5MWYtODZjMC1iYTBkMmY3NDcxZDgvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTI2MzgwNX19fV19&Signature=kzfs3Dhw8Zsk6chEFBWYbV5RubiPfTXY9r-F3vVAbjl-lRQ%7EAwsVKmwEs3Hb5so2R9sX96hQ11TXj-w4oCtfC58ARn3U1ERONrKm0mU3BgnzRI2EYOZH9mwuz5jS5qEV4A2rsX7kRh97cZFkatZejXzTXXXXNAMur2eTzgiLNRZBkvYsa4CUl5bIXvSrS5X6Te3SsnAaedRW5E-zGqPfYNV8Qdndpfg%7Eik0SVQUnrmUmVBVXnvbQl%7EWEHN2BK%7EFJb-oI54umMbSQRcxLJSMD0avP0uGzMHnZMi158wjOCPBAs%7EvgtOn56AwfHPgNmvi9dcD3lSe5Vx5WdJHomUWXUQ__" alt="允许访问 Amazon Q Developer" style="zoom: 33%;" /><img src="https://static.us-east-1.prod.workshops.aws/e9c4f308-c96f-491f-86c0-ba0d2f7471d8/static/images/request-approved.png?Key-Pair-Id=K36Q2WVO3JP7QD&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdGF0aWMudXMtZWFzdC0xLnByb2Qud29ya3Nob3BzLmF3cy9lOWM0ZjMwOC1jOTZmLTQ5MWYtODZjMC1iYTBkMmY3NDcxZDgvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTI2MzgwNX19fV19&Signature=kzfs3Dhw8Zsk6chEFBWYbV5RubiPfTXY9r-F3vVAbjl-lRQ%7EAwsVKmwEs3Hb5so2R9sX96hQ11TXj-w4oCtfC58ARn3U1ERONrKm0mU3BgnzRI2EYOZH9mwuz5jS5qEV4A2rsX7kRh97cZFkatZejXzTXXXXNAMur2eTzgiLNRZBkvYsa4CUl5bIXvSrS5X6Te3SsnAaedRW5E-zGqPfYNV8Qdndpfg%7Eik0SVQUnrmUmVBVXnvbQl%7EWEHN2BK%7EFJb-oI54umMbSQRcxLJSMD0avP0uGzMHnZMi158wjOCPBAs%7EvgtOn56AwfHPgNmvi9dcD3lSe5Vx5WdJHomUWXUQ__" alt="请求已批准" style="zoom:33%;" />
+![image-20250715135848158](./assets/image-20250715135848158.png)
 
 #### 设置 Amazon Q CLI
 
@@ -65,7 +61,7 @@ Amazon Q CLI 允许您在终端中直接与 Amazon Q 对话。Amazon Q CLI 已�
 
 1. 在 VSCode Server 中打开终端。（通常，VSCode 启动时终端会自动打开）
 
-   <img src="https://static.us-east-1.prod.workshops.aws/e9c4f308-c96f-491f-86c0-ba0d2f7471d8/static/images/activate-vscode-server-terminal.png?Key-Pair-Id=K36Q2WVO3JP7QD&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdGF0aWMudXMtZWFzdC0xLnByb2Qud29ya3Nob3BzLmF3cy9lOWM0ZjMwOC1jOTZmLTQ5MWYtODZjMC1iYTBkMmY3NDcxZDgvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTI2MzgwNX19fV19&Signature=kzfs3Dhw8Zsk6chEFBWYbV5RubiPfTXY9r-F3vVAbjl-lRQ%7EAwsVKmwEs3Hb5so2R9sX96hQ11TXj-w4oCtfC58ARn3U1ERONrKm0mU3BgnzRI2EYOZH9mwuz5jS5qEV4A2rsX7kRh97cZFkatZejXzTXXXXNAMur2eTzgiLNRZBkvYsa4CUl5bIXvSrS5X6Te3SsnAaedRW5E-zGqPfYNV8Qdndpfg%7Eik0SVQUnrmUmVBVXnvbQl%7EWEHN2BK%7EFJb-oI54umMbSQRcxLJSMD0avP0uGzMHnZMi158wjOCPBAs%7EvgtOn56AwfHPgNmvi9dcD3lSe5Vx5WdJHomUWXUQ__" alt="激活 VSCode Server 终端" style="zoom:50%;" />
+   ![image-20250715135904810](./assets/image-20250715135904810.png)
 
 2. 运行以下命令登录 Amazon Q CLI：
 
@@ -77,15 +73,15 @@ q login
 
 3. 选择使用 AWS Builder ID 登录的选项 **[如果你已经开启了企业版本的Q，则选择 Use with Pro license]：**
 
-<img src="https://static.us-east-1.prod.workshops.aws/e9c4f308-c96f-491f-86c0-ba0d2f7471d8/static/images/q-login.png?Key-Pair-Id=K36Q2WVO3JP7QD&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdGF0aWMudXMtZWFzdC0xLnByb2Qud29ya3Nob3BzLmF3cy9lOWM0ZjMwOC1jOTZmLTQ5MWYtODZjMC1iYTBkMmY3NDcxZDgvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTI2MzgwNX19fV19&Signature=kzfs3Dhw8Zsk6chEFBWYbV5RubiPfTXY9r-F3vVAbjl-lRQ%7EAwsVKmwEs3Hb5so2R9sX96hQ11TXj-w4oCtfC58ARn3U1ERONrKm0mU3BgnzRI2EYOZH9mwuz5jS5qEV4A2rsX7kRh97cZFkatZejXzTXXXXNAMur2eTzgiLNRZBkvYsa4CUl5bIXvSrS5X6Te3SsnAaedRW5E-zGqPfYNV8Qdndpfg%7Eik0SVQUnrmUmVBVXnvbQl%7EWEHN2BK%7EFJb-oI54umMbSQRcxLJSMD0avP0uGzMHnZMi158wjOCPBAs%7EvgtOn56AwfHPgNmvi9dcD3lSe5Vx5WdJHomUWXUQ__" alt="Amazon Q 登录" style="zoom: 67%;" />
+
 
 4. 将显示认证码和网站 URL。在您的网络浏览器中访问该 URL：
 
-<img src="https://static.us-east-1.prod.workshops.aws/e9c4f308-c96f-491f-86c0-ba0d2f7471d8/static/images/open-builder-id-login-website.png?Key-Pair-Id=K36Q2WVO3JP7QD&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdGF0aWMudXMtZWFzdC0xLnByb2Qud29ya3Nob3BzLmF3cy9lOWM0ZjMwOC1jOTZmLTQ5MWYtODZjMC1iYTBkMmY3NDcxZDgvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTI2MzgwNX19fV19&Signature=kzfs3Dhw8Zsk6chEFBWYbV5RubiPfTXY9r-F3vVAbjl-lRQ%7EAwsVKmwEs3Hb5so2R9sX96hQ11TXj-w4oCtfC58ARn3U1ERONrKm0mU3BgnzRI2EYOZH9mwuz5jS5qEV4A2rsX7kRh97cZFkatZejXzTXXXXNAMur2eTzgiLNRZBkvYsa4CUl5bIXvSrS5X6Te3SsnAaedRW5E-zGqPfYNV8Qdndpfg%7Eik0SVQUnrmUmVBVXnvbQl%7EWEHN2BK%7EFJb-oI54umMbSQRcxLJSMD0avP0uGzMHnZMi158wjOCPBAs%7EvgtOn56AwfHPgNmvi9dcD3lSe5Vx5WdJHomUWXUQ__" alt="Builder ID 登录网站" style="zoom:67%;" />
+
 
 5. 在网络浏览器中完成认证后，终端中将显示登录成功消息：
 
-<img src="https://static.us-east-1.prod.workshops.aws/e9c4f308-c96f-491f-86c0-ba0d2f7471d8/static/images/logged-in-successfully.png?Key-Pair-Id=K36Q2WVO3JP7QD&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdGF0aWMudXMtZWFzdC0xLnByb2Qud29ya3Nob3BzLmF3cy9lOWM0ZjMwOC1jOTZmLTQ5MWYtODZjMC1iYTBkMmY3NDcxZDgvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTI2MzgwNX19fV19&Signature=kzfs3Dhw8Zsk6chEFBWYbV5RubiPfTXY9r-F3vVAbjl-lRQ%7EAwsVKmwEs3Hb5so2R9sX96hQ11TXj-w4oCtfC58ARn3U1ERONrKm0mU3BgnzRI2EYOZH9mwuz5jS5qEV4A2rsX7kRh97cZFkatZejXzTXXXXNAMur2eTzgiLNRZBkvYsa4CUl5bIXvSrS5X6Te3SsnAaedRW5E-zGqPfYNV8Qdndpfg%7Eik0SVQUnrmUmVBVXnvbQl%7EWEHN2BK%7EFJb-oI54umMbSQRcxLJSMD0avP0uGzMHnZMi158wjOCPBAs%7EvgtOn56AwfHPgNmvi9dcD3lSe5Vx5WdJHomUWXUQ__" alt="登录成功" style="zoom:67%;" />
+
 
 运行以下命令验证 Amazon Q CLI 是否正常工作：
 
@@ -95,7 +91,7 @@ q chat
 
 
 
-<img src="https://static.us-east-1.prod.workshops.aws/e9c4f308-c96f-491f-86c0-ba0d2f7471d8/static/images/q-chat.png?Key-Pair-Id=K36Q2WVO3JP7QD&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly9zdGF0aWMudXMtZWFzdC0xLnByb2Qud29ya3Nob3BzLmF3cy9lOWM0ZjMwOC1jOTZmLTQ5MWYtODZjMC1iYTBkMmY3NDcxZDgvKiIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTc1MTI2MzgwNX19fV19&Signature=kzfs3Dhw8Zsk6chEFBWYbV5RubiPfTXY9r-F3vVAbjl-lRQ%7EAwsVKmwEs3Hb5so2R9sX96hQ11TXj-w4oCtfC58ARn3U1ERONrKm0mU3BgnzRI2EYOZH9mwuz5jS5qEV4A2rsX7kRh97cZFkatZejXzTXXXXNAMur2eTzgiLNRZBkvYsa4CUl5bIXvSrS5X6Te3SsnAaedRW5E-zGqPfYNV8Qdndpfg%7Eik0SVQUnrmUmVBVXnvbQl%7EWEHN2BK%7EFJb-oI54umMbSQRcxLJSMD0avP0uGzMHnZMi158wjOCPBAs%7EvgtOn56AwfHPgNmvi9dcD3lSe5Vx5WdJHomUWXUQ__" alt="Amazon Q 聊天" style="zoom:67%;" />
+![image-20250715135924777](./assets/image-20250715135924777.png)
 
 
 
