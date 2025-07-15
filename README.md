@@ -1,4 +1,4 @@
-# Amazon Q CLI Workshop 邀请课程 - 专属实验教材1
+# Amazon Q CLI Workshop 邀请课程 - 专属实验教材 upd0715
 
 
 
