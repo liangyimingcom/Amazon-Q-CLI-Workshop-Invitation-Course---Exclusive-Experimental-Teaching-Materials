@@ -1,11 +1,11 @@
-# Amazon Q CLI Workshop 邀请课程 - 专属实验教材 upd0715
+# Amazon Q CLI(已经改名为KIROCLI) Workshop 邀请课程 - 专属实验教材 upd1128
 
 
 
 您将通过一系列实验来学习和掌握 Amazon Q for command line 的各种功能和使用场景。
 
 实验概览
-
+0.如何安装Q CLI；
 1. **基础功能**：学习 Amazon Q for command line 的基本能力，包括聊天交互、文件操作和执行命令。
 2. **代码开发**：探索 Amazon Q 如何帮助您更高效地编写、调试和优化代码。
 3. **AWS 资源管理**：了解如何使用 Amazon Q 创建、配置、监控和排除 AWS 资源故障。
@@ -17,33 +17,17 @@
 
 # 0. 环境准备 - workshop工作坊环境设置
 
-#### 访问 VSCode Server
+#### 1、AmazonQ CLI的安装教程：
+Windows的安装：https://dev.to/aws/the-essential-guide-to-installing-amazon-q-developer-cli-on-windows-lmh
 
-在本次工作坊中，每位参与者都将获得一个在 EC2 实例上运行的 VSCode Server 环境。该环境已预先安装了 Amazon Q CLI 和 Amazon Q Developer 扩展程序。
+linux/Mac支持一键安装 https://docs.aws.amazon.com/zh_cn/amazonq/latest/qdeveloper-ug/command-line-installing.html
 
-1. 在工作坊网站的事件输出部分查看 VSCode Server 访问链接。
 
-   ![image-20250715135705743](./assets/image-20250715135705743.png)
 
-当 VSCode Server 登录页面打开时，输入事件输出中提供的密码进行登录。
-
-![image-20250715135734591](./assets/image-20250715135734591.png)
-
-#### 连接 Amazon Q Developer 扩展
-
-当您访问 VSCode Server 时，Amazon Q Developer 扩展已经安装好了。现在，让我们使用 AWS Builder ID 连接 Amazon Q Developer。
-
-1. 点击 VSCode 左侧边栏中的 Amazon Q Developer 图标。
-
-   ![image-20250715135743062](./assets/image-20250715135743062.png)
-
-点击登录按钮，将显示一个认证码，同时在您的网络浏览器中打开 AWS Builder ID 认证页面。
-
-![image-20250715135752047](./assets/image-20250715135752047.png)
-
-继续进行 AWS Builder ID 认证过程：
+#### 2、注册一个 AWS Builder ID 认证过程：
 
 - **如果您没有 AWS Builder ID**：点击"创建 AWS Builder ID"按钮创建一个新账户。
+https://aws.amazon.com/cn/builder/
 
   ![image-20250715135808058](./assets/image-20250715135808058.png)
 
@@ -51,11 +35,9 @@
 
 ![image-20250715135820215](./assets/image-20250715135820215.png)
 
-登录后，验证认证码并点击"确认并继续"按钮，允许访问 Amazon Q Developer。
 
-![image-20250715135848158](./assets/image-20250715135848158.png)
 
-#### 设置 Amazon Q CLI
+#### 3、设置 Amazon Q CLI （以Macos 和 Linux为例）
 
 Amazon Q CLI 允许您在终端中直接与 Amazon Q 对话。Amazon Q CLI 已经安装在您的 VSCode Server 环境中。
 
